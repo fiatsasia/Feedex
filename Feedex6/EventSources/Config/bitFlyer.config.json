@@ -1,0 +1,18 @@
+{
+	type: 'socketio',
+	endpoint: 'https://io.lightstream.bitflyer.com',
+	reconnection: true,
+	subscribe: {
+		method: 'subscribe',
+		args: [
+			'lightning_<channel>_<product_code>'
+		],
+		event: 'lightning_<channel>_<product_code>'
+	},
+	unsubscribe: {
+		method: 'unsubscribe',
+		args: [
+			'lightning_<channel>_<product_code>'
+		]
+	}
+}
