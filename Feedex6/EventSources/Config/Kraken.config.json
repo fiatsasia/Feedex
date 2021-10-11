@@ -1,0 +1,26 @@
+{
+	type: 'websocket',
+  endpoint: 'wss://ws.kraken.com',
+  subscribe: {
+    event: 'subscribe',
+    pair: [
+			'<pair>'
+		],
+    subscription: {
+			name: '<subscription>'
+		}
+  },
+  unsubscribe: {
+    event: 'unsubscribe',
+    pair: [
+			'<pair>'
+		],
+    subscription: {
+			name: '<subscription>'
+		}
+  },
+	filters: [
+		{ path: '$.[2]', value: '<subscription>' },
+		{ path: '$.[3]', value: '<pair>' }
+	]
+}
