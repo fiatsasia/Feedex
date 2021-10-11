@@ -1,0 +1,11 @@
+{
+	type: 'websocket',
+  endpoint: 'wss://ws-api.coincheck.com/',
+  subscribe: {
+    type: 'subscribe',
+    channel: '<pair>-<channel>'
+  },
+  filters: [
+		{ path: '<path>', value: '<pair>' }
+	]
+}
