@@ -1,6 +1,7 @@
 {
 	"type": "socketio",
 	"endpoint": "https://io.lightstream.bitflyer.com",
+	"date": "JSON",
 	"reconnection": true,
 	"subscribe": {
 		"method": "subscribe",
