@@ -1,19 +1,19 @@
 {
-	type: 'socketio',
-	endpoint: 'https://stream.bitbank.cc',
-	reconnection: true,
-	reconnection_attempts: 0,
-	reconnection_delay: 1,
-	reconnection_delay_max: 30,
-	EIO: 3,
-	subscribe: {
-		method: 'join-room',
-		args: [
-			'<channel>_<pair>'
+	"type": "socketio",
+	"endpoint": "https://stream.bitbank.cc",
+	"reconnection": true,
+	"reconnection_attempts": 0,
+	"reconnection_delay": 1,
+	"reconnection_delay_max": 30,
+	"EIO": 3,
+	"subscribe": {
+		"method": "join-room",
+		"args": [
+			"<channel>_<pair>"
 		]
 	},
-	event: 'message',
-	filters: [
-		{ path: '$.[0].room_name', value: '<channel>_<pair>' }
+	"event": "message",
+	"filters": [
+		{ "path": "$.[0].room_name", "value": "<channel>_<pair>" }
 	]
 }
