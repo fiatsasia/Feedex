@@ -1,6 +1,7 @@
 {
 	"type": "socketio",
 	"endpoint": "https://stream.bitbank.cc",
+	"date": "unixmilliseconds",
 	"reconnection": true,
 	"reconnection_attempts": 0,
 	"reconnection_delay": 1,
