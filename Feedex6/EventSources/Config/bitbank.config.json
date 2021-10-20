@@ -17,5 +17,6 @@
 	"event": "message",
 	"filters": [
 		{ "path": "$.[0].room_name", "value": "<channel>_<pair>" }
-	]
+	],
+	"rooms": [ "ticker", "transactions", "depth_diff", "depth_whole" ]
 }
