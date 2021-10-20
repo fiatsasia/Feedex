@@ -1,8 +1,8 @@
 {
 	"type": "socketio",
 	"endpoint": "https://io.lightstream.bitflyer.com",
-	"date": "JSON",
 	"reconnection": true,
+	"dateFormat": "JSON",
 	"rootPath": "$[0]",
 	"subscribe": {
 		"method": "subscribe",
