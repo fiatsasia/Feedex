@@ -3,6 +3,7 @@
 	"endpoint": "https://io.lightstream.bitflyer.com",
 	"date": "JSON",
 	"reconnection": true,
+	"rootPath": "$[0]",
 	"subscribe": {
 		"method": "subscribe",
 		"args": [
