@@ -16,5 +16,6 @@
 		"args": [
 			"lightning_<channel>_<product_code>"
 		]
-	}
+	},
+	"channels": [ "ticker", "executions", "board_snapshot", "board" ]
 }
