@@ -6,6 +6,6 @@
 		"channel": "<pair>-<channel>"
 	},
 	"filters": [
-		{ "path": "<path>", "value": "<pair>" }
+		{ "path": "<filterPath>", "value": "<pair>" }
 	]
 }
