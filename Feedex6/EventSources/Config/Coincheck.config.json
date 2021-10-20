@@ -5,7 +5,7 @@
 		"type": "subscribe",
 		"channel": "<pair>-<channel>"
 	},
-	filters: [
-		{ path: '<path>', value: '<pair>' }
+	"filters": [
+		{ "path": "<path>", "value": "<pair>" }
 	]
 }
