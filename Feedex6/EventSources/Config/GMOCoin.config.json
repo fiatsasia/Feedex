@@ -1,14 +1,20 @@
 {
-	type: 'websocket',
-  endpoint: 'wss://api.coin.z.com/ws/public/v1',
-	delay: 5000,
-  subscribe: {
-    command: 'subscribe',
-    channel: '<channel>',
-    symbol: '<symbol>'
+	"type": "websocket",
+	"endpoint": "wss://api.coin.z.com/ws/public/v1",
+	"delay": 5000,
+	"subscribe": {
+		"command": "subscribe",
+		"channel": "<channel>",
+		"symbol": "<symbol>"
 	},
-	filters: [
-		{ path: '$.channel', value: '<channel>' },
-		{ path: '$.symbol', value: '<symbol>' }
+	"filters": [
+		{
+			"path": "$.channel",
+			"value": "<channel>"
+		},
+		{
+			"path": "$.symbol",
+			"value": "<symbol>"
+		}
 	]
 }
