@@ -6,14 +6,13 @@
 		"channel": "<channel>",
 		"symbol": "<symbol>"
 	},
+	"unsubscribe": {
+		"command": "unsubscribe",
+		"channel": "<channel>",
+		"symbol": "<symbol>"
+	},
 	"filters": [
-		{
-			"path": "$.channel",
-			"value": "<channel>"
-		},
-		{
-			"path": "$.symbol",
-			"value": "<symbol>"
-		}
+		{ "path": "$.channel", "value": "<channel>" },
+		{ "path": "$.symbol", "value": "<symbol>" }
 	]
 }
