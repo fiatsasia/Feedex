@@ -1,0 +1,16 @@
+{
+	"type": "websocket",
+	"endpoint": "wss://stream-testnet.bybit.com/realtime",
+	"pingIntervalMs": 30000,
+	"ping": {
+		"op": "ping"
+	},
+	"subscribe": {
+		"op": "subscribe",
+		"args": ["<topic>.<filter>"]
+	},
+	"unsubscribe": {
+		"op": "subscribe",
+		"args": ["<topic>.<filter>"]
+	}
+}
