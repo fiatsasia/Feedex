@@ -18,15 +18,5 @@
 		"subscription": {
 			"name": "<subscription>"
 		}
-	},
-	"filters": [
-		{
-			"path": "$.[2]",
-			"value": "<subscription>"
-		},
-		{
-			"path": "$.[3]",
-			"value": "<pair>"
-		}
-	]
+	}
 }
