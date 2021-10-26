@@ -12,8 +12,12 @@
 		"channel": "<channel>",
 		"symbol": "<symbol>"
 	},
-	"filters": [
-		{ "path": "$.channel", "value": "<channel>" },
-		{ "path": "$.symbol", "value": "<symbol>" }
-	]
+	"subscribeArgs" {
+		"channel": "<channel>",
+		"symbol": "<symbol>",
+		"filters": [
+			{ "path": "channel", "value": "<channel>" },
+			{ "path": "symbol", "value": "<symbol>" }
+		]
+	}
 }
