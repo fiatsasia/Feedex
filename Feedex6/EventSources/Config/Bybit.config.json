@@ -13,7 +13,9 @@
 		"op": "unsubscribe",
 		"args": ["<topic>.<filter>"]
 	},
-	"filters": [
-		{ "path": "topic", "value": "<topic>.<filter>" }
-	]
+	"subscribeArgs": {
+		"filters": [
+			{ "path": "topic", "value": "<topic>.<filter>" }
+		]
+	}
 }
