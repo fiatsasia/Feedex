@@ -10,7 +10,7 @@
 		"args": ["<topic>.<filter>"]
 	},
 	"unsubscribe": {
-		"op": "subscribe",
+		"op": "unsubscribe",
 		"args": ["<topic>.<filter>"]
 	},
 	"filters": [
