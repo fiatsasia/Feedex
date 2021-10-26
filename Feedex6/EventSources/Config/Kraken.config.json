@@ -27,5 +27,6 @@
 			{ "path": "[3]", "value": "<pair>" }
 		],
 		"path": "[1]"
-	}
+	},
+	"subscriptions": [ "ticker", "ohlc-*", "trade", "spread", "book-*" ]
 }
