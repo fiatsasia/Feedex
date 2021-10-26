@@ -22,10 +22,10 @@
 	"subscribeArgs": {
 		"subscription": "<subscription>",
 		"pair": "<pair>",
-		"path": "[1]",
 		"filters": [
 			{ "path": "[2]", "value": "<subscription>" },
 			{ "path": "[3]", "value": "<pair>" }
-		]
+		],
+		"path": "[1]"
 	}
 }
