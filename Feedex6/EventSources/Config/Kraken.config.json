@@ -20,8 +20,6 @@
 		}
 	},
 	"subscribeArgs": {
-		"subscription": "<subscription>",
-		"pair": "<pair>",
 		"filters": [
 			{ "path": "[2]", "value": "<subscription>" },
 			{ "path": "[3]", "value": "<pair>" }
