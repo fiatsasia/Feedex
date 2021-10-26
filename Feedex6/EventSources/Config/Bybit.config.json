@@ -1,7 +1,7 @@
 {
 	"type": "websocket",
 	"endpoint": "wss://stream-testnet.bybit.com/realtime",
-	"pingIntervalMs": 30000,
+	"pingIntervalMs": 20000,
 	"ping": {
 		"op": "ping"
 	},
