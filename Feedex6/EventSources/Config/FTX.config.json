@@ -15,7 +15,7 @@
 		"op": "unsubscribe",
 		"channel": "<channel>",
 		"market": "<market>"
-	}
+	},
 	"subscribeArgs": {
 		"filters": [
 			{ "path": "type", "value": "update" },
