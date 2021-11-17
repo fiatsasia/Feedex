@@ -1,0 +1,15 @@
+{
+	"name": "Binance",
+	"type": "websocket",
+	"defaultKeepAliveInterval": "00:00:30",
+	"subscribe": {
+		"method": "SUBSCRIBE",
+		"params": [ "<market>@<channel>" ],
+		"id": <id>
+	},
+	"unsubscribe": {
+		"method": "UNSUBSCRIBE",
+		"params": [ "<market>@<channel>" ].
+		"id": <id>
+	}
+}
