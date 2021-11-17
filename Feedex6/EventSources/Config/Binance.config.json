@@ -1,15 +1,22 @@
 {
 	"name": "Binance",
 	"type": "websocket",
-	"endpoint": "wss://dex.binance.org/api/ws",
+	"endpoint": "wss://testnet-dex.binance.org/api/ws",
+	"pingIntervalMs": 1800000,
+	"ping": {
+		"method": "keepAlive"
+	},
 	"subscribe": {
-		"method": "SUBSCRIBE",
-		"params": [ "<market>@<channel>" ],
-		"id": "<id>"
+		"method": "subscribe",
+		"topic": "<topic>",
+		"symbols": ["<symbol>"]
 	},
 	"unsubscribe": {
-		"method": "UNSUBSCRIBE",
-		"params": [ "<market>@<channel>" ],
-		"id": "<id>"
+		"method": "unsubscribe",
+		"topic": "<topic>",
+		"symbols": ["<symbol>"]
+	},
+	"close": {
+		"method": "close"
 	}
 }
