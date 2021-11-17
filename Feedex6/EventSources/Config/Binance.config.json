@@ -9,7 +9,7 @@
 	},
 	"unsubscribe": {
 		"method": "UNSUBSCRIBE",
-		"params": [ "<market>@<channel>" ].
+		"params": [ "<market>@<channel>" ],
 		"id": "<id>"
 	}
 }
