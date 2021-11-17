@@ -16,6 +16,12 @@
 		"topic": "<topic>",
 		"symbols": ["<symbol>"]
 	},
+	"subscribeArgs": {
+		"filters": [
+			{ "stream": "<topic>" }
+		],
+		"path": "data"
+	},
 	"close": {
 		"method": "close"
 	}
