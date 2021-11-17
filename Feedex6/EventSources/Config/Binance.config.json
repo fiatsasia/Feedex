@@ -18,7 +18,7 @@
 	},
 	"subscribeArgs": {
 		"filters": [
-			{ path: "stream", value: "<topic>" }
+			{ "path": "stream", "value": "<topic>" }
 		],
 		"path": "data"
 	},
