@@ -2,10 +2,6 @@
 	"name": "Binance",
 	"type": "websocket",
 	"endpoint": "wss://testnet-dex.binance.org/api/ws",
-	"pingIntervalMs": 1800000,
-	"ping": {
-		"method": "keepAlive"
-	},
 	"subscribe": {
 		"method": "subscribe",
 		"topic": "<topic>",
