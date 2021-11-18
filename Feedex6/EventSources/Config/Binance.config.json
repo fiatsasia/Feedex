@@ -1,7 +1,7 @@
 {
 	"name": "Binance",
 	"type": "websocket",
-	"endpoint": "wss://testnet-dex.binance.org/api/ws",
+	"endpoint": "wss://dex.binance.org/api/ws",
 	"subscribe": {
 		"method": "subscribe",
 		"topic": "<topic>",
