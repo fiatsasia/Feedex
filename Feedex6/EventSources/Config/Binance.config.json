@@ -1,20 +1,20 @@
 {
 	"name": "Binance",
 	"type": "websocket",
-	"endpoint": "wss://dex.binance.org/api/ws",
+	"endpoint": "wss://stream.binance.com:9443/ws",
 	"subscribe": {
-		"method": "subscribe",
-		"topic": "<topic>",
-		"symbols": ["<symbol>"]
+		"method": "SUBSCRIBE",
+		"params": ["<symbol>@<event>"],
+		"id": <id>
 	},
 	"unsubscribe": {
-		"method": "unsubscribe",
-		"topic": "<topic>",
-		"symbols": ["<symbol>"]
+		"method": "UNSUBSCRIBE",
+		"params": ["<symbol>@<event>"],
+		"id": <id>
 	},
 	"subscribeArgs": {
 		"filters": [
-			{ "path": "stream", "value": "<topic>" }
+			{ "stream": "<symbol>@<event>" }
 		],
 		"path": "data"
 	},
