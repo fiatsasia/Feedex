@@ -5,12 +5,12 @@
 	"subscribe": {
 		"method": "SUBSCRIBE",
 		"params": ["<symbol>@<event>"],
-		"id": <id>
+		"id": "%id%"
 	},
 	"unsubscribe": {
 		"method": "UNSUBSCRIBE",
 		"params": ["<symbol>@<event>"],
-		"id": <id>
+		"id": "%id%"
 	},
 	"subscribeArgs": {
 		"filters": [
