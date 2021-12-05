@@ -1,7 +1,7 @@
 {
 	"name": "Binance",
 	"type": "websocket",
-	"endpoint": "wss://stream.binance.com:9443/ws/",
+	"endpoint": "wss://stream.binance.com:9443/ws",
 	"subscribe": {
 		"method": "SUBSCRIBE",
 		"params": ["<symbol>@<event>"],
